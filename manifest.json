@@ -1,12 +1,12 @@
 {
     "name": "no-scrooooll-bar",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 2,
     "description": "disable scroll bar of pre tag code",
     "content_scripts": [{
         "matches": [
-            "https://stackoverflow.com/*",
-            "https://unix.stackexchange.com/*"
+            "http://*/*",
+            "https://*/*"
         ],
         "css": ["no-scroll-bar.css"]
     }]
