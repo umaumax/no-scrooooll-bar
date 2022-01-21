@@ -1,13 +1,12 @@
 {
-    "name": "no-scrooooll-bar",
-    "version": "0.0.2",
-    "manifest_version": 2,
-    "description": "disable scroll bar of pre tag code",
-    "content_scripts": [{
-        "matches": [
-            "http://*/*",
-            "https://*/*"
-        ],
-        "css": ["no-scroll-bar.css"]
-    }]
+  "name": "no-scrooooll-bar",
+  "version": "0.0.2",
+  "manifest_version": 3,
+  "description": "disable scroll bar of pre tag code",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["no-scroll-bar.css"]
+    }
+  ]
 }
